@@ -1,7 +1,14 @@
 # mikanos
-MikanOS: An Educational Operating System
 
-# Files
+For about MikanOS studying.
+# reference
 
-- MikanLoaderPkg
-    - The MikanOS loader as a UEFI Application
+https://github.com/uchan-nos/mikanos
+
+http://zero.osdev.jp/
+
+# progress
+tag: osbook_day05c
+
+# build method
+In maintenance
