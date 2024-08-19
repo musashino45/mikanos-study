@@ -2,6 +2,7 @@
  * @file main.cpp
  *
  * カーネル本体のプログラムを書いたファイル．
+ * test
  */
 
 #include <cstdint>
