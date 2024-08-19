@@ -35,3 +35,11 @@ void WriteAscii(PixelWriter& writer, int x, int y, char c, const PixelColor& col
   }
 }
 // #@@range_end(write_ascii)
+
+// write as string. to call writeascii as loop.
+void WriteString(PixelWriter& writer, int x, int y, const char* s, const PixelColor& color) {
+  for (int i = 0; s[i] != '\0'; ++i) { //to loop until the \0 appeared.
+	WriteAscii(writer, x + 8 * i, y, s[i], color);
+  }
+}
+
